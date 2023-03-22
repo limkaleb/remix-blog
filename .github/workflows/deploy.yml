@@ -116,6 +116,7 @@ jobs:
           wait-on: "http://localhost:8811"
         env:
           PORT: "8811"
+          ADMIN_EMAIL: "rachel@remix.run"
 
   build:
     name: 🐳 Build
